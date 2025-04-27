@@ -89,6 +89,4 @@ A full-stack application for detecting fraudulent banking transactions using AI,
 4. **Add Transaction**: Click "Add Transaction" to manually enter and analyze a new transaction
 5. **Visualize Data**: Use the visualization tabs to see different charts and graphs
 
-## License
 
-MIT
