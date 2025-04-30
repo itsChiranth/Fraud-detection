@@ -77,7 +77,7 @@ function getMockTransactions(count = 10) {
   // Devices
   const devices = ["Mobile Android", "Mobile iOS", "Desktop Windows", "Desktop Mac", "Tablet"]
 
-  // Generate mock transactions
+  // Generate mock transactions 
   return Array.from({ length: count }, (_, i) => {
     const amount = Math.floor(Math.random() * 50000) + 1000
     const location = cities[Math.floor(Math.random() * cities.length)]
@@ -99,3 +99,4 @@ function getMockTransactions(count = 10) {
     }
   })
 }
+
